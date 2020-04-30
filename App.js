@@ -54,8 +54,6 @@ const App: () => React$Node = () => {
                 <ReloadInstructions />
               </Text>
 
-              <Image source={{uri: 'https://reactjs.org/logo-og.png'}}
-       style={{width: 400, height: 400}} />
 
 
             </View>
