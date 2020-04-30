@@ -49,7 +49,7 @@ const App: () => React$Node = () => {
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>2.See Your Changes Here.....</Text>
+              <Text style={styles.sectionTitle}>2.See Your Changessss Here.....</Text>
               <Text style={styles.sectionDescription}>
                 <ReloadInstructions />
               </Text>
