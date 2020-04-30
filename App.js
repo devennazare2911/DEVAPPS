@@ -45,7 +45,7 @@ const App: () => React$Node = () => {
                
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits ! Added by Deven
+                screen and then come back to see your edits ! Changed by Anket
               </Text>
             </View>
             <View style={styles.sectionContainer}>
