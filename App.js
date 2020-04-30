@@ -53,6 +53,11 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionDescription}>
                 <ReloadInstructions />
               </Text>
+
+              <Image source={{uri: 'https://reactjs.org/logo-og.png'}}
+       style={{width: 400, height: 400}} />
+
+
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Debuging Mode on </Text>
