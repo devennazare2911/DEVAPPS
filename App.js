@@ -16,6 +16,9 @@ import {
   StatusBar,
 } from 'react-native';
 
+
+import { Icon } from 'react-native';
+
 import {
   Header,
   LearnMoreLinks,
@@ -40,25 +43,20 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step ONE Lets Start And Play With React
-               </Text>
-               
+              <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits ! Changed by Anket
+                screen and then come back to see your edits. 
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>2.See Your Changes Here</Text>
+              <Text style={styles.sectionTitle}>See Your Changes</Text>
               <Text style={styles.sectionDescription}>
                 <ReloadInstructions />
               </Text>
-
-
-
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debuging Mode on </Text>
+              <Text style={styles.sectionTitle}>Debug</Text>
               <Text style={styles.sectionDescription}>
                 <DebugInstructions />
               </Text>
